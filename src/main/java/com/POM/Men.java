@@ -14,7 +14,7 @@ public class Men extends TestBaseClass {
 	{
 		PageFactory.initElements(driver,this);
 	}
-	@FindBy(xpath="//img[@alt='T-shirt']//parent::div")
+	@FindBy(id ="tshirt")
 	private WebElement Tshirt;
 	
 	@FindBy(xpath="//img[@alt='Shirts']")
