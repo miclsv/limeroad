@@ -59,7 +59,7 @@ public class StepDefinition extends TestBaseClass {
 	    // Write code here that turns the phrase above into concrete actions
 	    //throw new io.cucumber.java.PendingException();
 		wait(3);
-		driver.navigate().refresh();
+		//driver.navigate().refresh();
 		clickElement(PageObjectManager.getPOM().getMen().getProducts().get(0));
 	}
 	@When("Select size")

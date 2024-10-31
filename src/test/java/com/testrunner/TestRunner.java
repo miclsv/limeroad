@@ -9,7 +9,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "C:\\Users\\Michael\\limeroad\\src\\test\\java\\com\\feature\\limeroad.feature",glue = "com.stepdefinition",
+@CucumberOptions(features = "C:\\Users\\LENOVO\\limeroad\\src\\test\\java\\com\\feature\\limeroad.feature",glue = "com.stepdefinition",
 tags="@tag1",
 
 plugin = {"pretty","html:res/lime.html","json:res/lime.json","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}

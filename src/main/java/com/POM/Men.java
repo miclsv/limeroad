@@ -14,7 +14,7 @@ public class Men extends TestBaseClass {
 	{
 		PageFactory.initElements(driver,this);
 	}
-	@FindBy(xpath ="//div[text()='t-shirt']")
+	@FindBy(xpath ="//div[@class='loaderCat viptshirtLdr dIb mA pA r0   h80 b4 l0 t0 ']")
 	private WebElement Tshirt;
 	
 	@FindBy(xpath="//img[@alt='Shirts']")
@@ -44,13 +44,13 @@ public class Men extends TestBaseClass {
 	@FindBy(xpath="//div//span/img")
 	private List<WebElement> styles;
 	
-	@FindBy(xpath="//span[@class=' h321  dB vT pR bgF wp100']")
+	@FindBy(xpath="//img[@class='dB h412 w310 mA pR prdI gtm-p an-ll']")
 	private List<WebElement> products;
 
 	@FindBy(xpath="//div[@id='alSz']//span[text()=' M ']")
 	private WebElement sizeM;
 	
-	@FindBy(xpath="//div[@id='alSz']//span[text()=' L ']")
+	@FindBy(xpath="//span[text()=' 9 (UK) ']")
 	private WebElement sizeL;
 	
 	@FindBy(xpath="//div[@id='alSz']//span[text()=' XL ']")
