@@ -14,7 +14,7 @@ public class HomePage extends TestBaseClass {
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(xpath ="//span[text()='SHOP MEN']")
+	@FindBy(xpath ="//p[text()='Men']")
 	private WebElement men_btn;
 
 	public WebElement getMen_btn() {
